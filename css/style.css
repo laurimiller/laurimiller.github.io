@@ -109,8 +109,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	margin-bottom: 80px;
-	background: url(../img/intro-bg.jpg) no-repeat right top;
-	background-color: #e5e5e5;
+	background: url(../img/intro-bg.jpg) ;
+	/*background-color: #e5e5e5;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -118,9 +118,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .overlay {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d5dade+100&0.5+0,0+100 */
-	background: -moz-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(left, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00d5dade', GradientType=1 ); /* IE6-9 */
 }
 .intro .fa {
@@ -134,8 +134,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', e
 	font-size: 22px;
 }
 header .intro-text {
-	padding-top: 250px;
-	padding-bottom: 200px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 }
 /* Portfolio Section */
 #portfolio {
@@ -254,6 +254,9 @@ ol.type li a:hover {
 	margin-bottom: 20px;
 	line-height: 24px;
 }
+#contact a {
+	color: rgb(209, 209, 209);
+}
 #contact .social {
 	margin-top: 40px;
 }
@@ -343,4 +346,107 @@ color: #777;
 #footer p {
 	font-size: 15px;
 	color: #666;
+}
+.clip-circle {
+  clip-path: circle(70px at center);
+}
+
+.timeline {
+    border-left: 3px solid rgb(2, 37, 41);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    padding: 0 30px;
+    margin-left: 280px
+}
+
+.timeline .item {
+    position: relative;
+    margin-bottom: 45px
+}
+
+.timeline .item:last-child {
+    margin-bottom: 0
+}
+
+.timeline .item:before {
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    border: 3px solid rgb(2, 37, 41)
+}
+
+.timeline .item:after {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgb(2, 37, 41);
+    z-index: 10
+}
+
+.timeline .work-place {
+    position: relative
+}
+
+.timeline .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #8a8a8a
+}
+
+.timeline .location .fa {
+    margin-right: 5px
+}
+
+.timeline .place {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300
+}
+
+.timeline .job-meta {
+    position: absolute;
+    left: -280px;
+    top: 0
+}
+
+.timeline .job-meta .title {
+    font-size: 18px;
+    color: rgb(2, 37, 41);
+    max-width: 220px
+}
+
+.timeline .job-meta .time {
+    color: #8a8a8a
+}
+
+.timeline .job-desc {
+    color: #666
 }
