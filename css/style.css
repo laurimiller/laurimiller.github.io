@@ -2,27 +2,31 @@ body, html {
 	font-family: 'Montserrat', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #555;
+	color: #262626;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	/* background: url(../img/bgwave.png) ; */
+	background-repeat: no-repeat;
+	background-color: #0e0e0e;
 }
 h1 {
-	color: #333;
+	color: rgb(216, 216, 216);
 	font-size: 64px;
-	font-weight: 800;
+	font-weight: 400;
 	margin-top: 0;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
 h2 {
 	margin: 0 0 20px 0;
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 42px;
-	color: #333;
+	color: rgb(216, 216, 216);
 	text-transform: uppercase;
 }
 h3 {
+	color: rgb(216, 216, 216);
 	font-size: 18px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -40,9 +44,9 @@ h5 {
 }
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	font-weight: 400;
-	color: #888;
+	font-size: 17px;
+	font-weight: 300;
+	color: rgb(210, 210, 210);
 }
 p.intro {
 	margin: 12px 0 0;
@@ -88,9 +92,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	color: #444;
+	color: rgb(210,210,210);
 	background-color: transparent;
-	border: 2px solid #444;
+	border: 2px solid rgb(184, 184, 184);
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 14px;
@@ -101,35 +105,33 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #eee;
-	background-color: #444;
+	background-color: rgb(184, 184, 184);
 }
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	margin-bottom: 80px;
-	background: url(../img/intro-bg.jpg) ;
-	/*background-color: #e5e5e5;*/
+	margin-bottom: 50px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
-.intro .overlay {
+/* .intro .overlay {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d5dade+100&0.5+0,0+100 */
 	background: -moz-linear-gradient(left, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00d5dade', GradientType=1 ); /* IE6-9 */
-}
+} */
 .intro .fa {
 	font-size: 94px;
 	margin-bottom: 40px;
 	color: #fff;
 }
 .intro p {
-	color: #444;
+	color: rgb(184, 184, 184);
 	margin: 10px 0 20px 0;
 	font-size: 22px;
 }
@@ -139,7 +141,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 40px 0 100px 0;
+	padding: 80px 0 100px 0;
 }
 .categories {
 	margin-bottom: 80px;
@@ -237,12 +239,10 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 60px 0 60px 0;
-	background: #262626;
+	padding: 0px 0 0px 0;
 }
 #contact h2 {
 	font-weight: 400;
-	color: #777;
 	margin: 60px 0;
 }
 #contact img {
@@ -250,7 +250,6 @@ ol.type li a:hover {
 	margin: 5px 30px 10px 0;
 }
 #contact p {
-	color: #666;
 	margin-bottom: 20px;
 	line-height: 24px;
 }
@@ -340,7 +339,7 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #262626;
+	background: #0e0e0e;
 	padding: 50px 0 20px 0;
 }
 #footer p {
@@ -352,11 +351,11 @@ color: #777;
 }
 
 .timeline {
-    border-left: 3px solid rgb(2, 37, 41);
+    border-left: 3px solid rgb(216, 216, 216);
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
-    padding: 0 30px;
+    padding: 30px;
     margin-left: 280px
 }
 
@@ -385,8 +384,8 @@ color: #777;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #fff;
-    border: 3px solid rgb(2, 37, 41)
+    background: #0e0e0e;
+    border: 2px solid rgb(216, 216, 216)
 }
 
 .timeline .item:after {
@@ -405,7 +404,7 @@ color: #777;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: rgb(2, 37, 41);
+    background: rgb(216, 216, 216);
     z-index: 10
 }
 
@@ -417,7 +416,7 @@ color: #777;
     position: absolute;
     right: 0;
     top: 2px;
-    color: #8a8a8a
+    color: rgb(184, 184, 184)
 }
 
 .timeline .location .fa {
@@ -439,14 +438,31 @@ color: #777;
 
 .timeline .job-meta .title {
     font-size: 18px;
-    color: rgb(2, 37, 41);
+    color: rgb(184, 184, 184);
     max-width: 220px
 }
 
 .timeline .job-meta .time {
-    color: #8a8a8a
+    color: rgb(184, 184, 184)
 }
 
 .timeline .job-desc {
-    color: #666
+    color: rgb(184, 184, 184)
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        margin-left: 0;
+        padding-right: 1
+    }
+    .timeline .place {
+        margin-bottom: 5px
+    }
+    .timeline .job-meta {
+        position: static;
+        margin-bottom: 15px
+    }
+    .timeline .job-meta .title {
+        max-width: none
+    }
 }
