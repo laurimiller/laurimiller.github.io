@@ -9,9 +9,11 @@ body, html {
 	/* background: url(../img/bgwave.png) ; */
 	background-repeat: no-repeat;
 	background-color: #0e0e0e;
+	transform: scale(0.95);
+	transform-origin: 0 0;
 }
 h1 {
-	color: rgb(216, 216, 216);
+	color: rgb(200, 200, 200);
 	font-size: 64px;
 	font-weight: 400;
 	margin-top: 0;
@@ -22,11 +24,11 @@ h2 {
 	margin: 0 0 20px 0;
 	font-weight: 300;
 	font-size: 42px;
-	color: rgb(216, 216, 216);
+	color: rgb(200, 200, 200);
 	text-transform: uppercase;
 }
 h3 {
-	color: rgb(216, 216, 216);
+	color: rgb(200, 200, 200);
 	font-size: 18px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -94,7 +96,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-transform: uppercase;
 	color: rgb(210,210,210);
 	background-color: transparent;
-	border: 2px solid rgb(184, 184, 184);
+	border: 2px solid rgb(170, 170, 170);
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 14px;
@@ -105,7 +107,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #eee;
-	background-color: rgb(184, 184, 184);
+	background-color: rgb(170, 170, 170);
 }
 /* Header Section */
 .intro {
@@ -131,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', e
 	color: #fff;
 }
 .intro p {
-	color: rgb(184, 184, 184);
+	color: rgb(170, 170, 170);
 	margin: 10px 0 20px 0;
 	font-size: 22px;
 }
@@ -351,7 +353,7 @@ color: #777;
 }
 
 .timeline {
-    border-left: 3px solid rgb(216, 216, 216);
+    border-left: 3px solid rgb(200, 200, 200);
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
@@ -385,7 +387,7 @@ color: #777;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #0e0e0e;
-    border: 2px solid rgb(216, 216, 216)
+    border: 2px solid rgb(200, 200, 200)
 }
 
 .timeline .item:after {
@@ -404,7 +406,7 @@ color: #777;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: rgb(216, 216, 216);
+    background: rgb(200, 200, 200);
     z-index: 10
 }
 
@@ -416,7 +418,7 @@ color: #777;
     position: absolute;
     right: 0;
     top: 2px;
-    color: rgb(184, 184, 184)
+    color: rgb(170, 170, 170)
 }
 
 .timeline .location .fa {
@@ -438,16 +440,16 @@ color: #777;
 
 .timeline .job-meta .title {
     font-size: 18px;
-    color: rgb(184, 184, 184);
+    color: rgb(170, 170, 170);
     max-width: 220px
 }
 
 .timeline .job-meta .time {
-    color: rgb(184, 184, 184)
+    color: rgb(170, 170, 170)
 }
 
 .timeline .job-desc {
-    color: rgb(184, 184, 184)
+    color: rgb(170, 170, 170)
 }
 
 @media (max-width: 767px) {
