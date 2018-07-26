@@ -4,10 +4,10 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #262626;
 	font-weight: 400;
-	width: 100% !important;
-	height: 100% !important;
-	/* background: url(../img/bgwave.png) ; */
-	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background: url(../img/testbg.png);
+	background-repeat: no-repeat, no-repeat;
 	background-color: #0e0e0e;
 }
 h1 {
@@ -20,7 +20,7 @@ h1 {
 }
 h2 {
 	margin: 0 0 20px 0;
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 42px;
 	color: rgb(200, 200, 200);
 	text-transform: uppercase;
@@ -59,9 +59,7 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #000;
 }
-ul, ol {
-	list-style: none;
-}
+
 ul, ol {
 	padding: 0;
 	webkit-padding: 0;
@@ -118,13 +116,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
-/* .intro .overlay {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d5dade+100&0.5+0,0+100 */
-	background: -moz-linear-gradient(left, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(255,255,255,0.25) 0%, rgba(213,218,222,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00d5dade', GradientType=1 ); /* IE6-9 */
-} */
+
 .intro .fa {
 	font-size: 94px;
 	margin-bottom: 40px;
@@ -239,13 +231,14 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
+	background: url(../img/testbg.png) ;
+
 	padding: 0px 0 0px 0;
 }
 #contact h2 {
-	font-weight: 400;
 	margin: 60px 0;
 }
-#contact img {
+#aboutintro img {
 	width: 140px;
 	margin: 5px 30px 10px 0;
 }
@@ -254,14 +247,17 @@ ol.type li a:hover {
 	line-height: 24px;
 }
 #contact a {
-	color: rgb(209, 209, 209);
+	text-decoration: underline;
+
+	color: rgb(255,255,255);
 }
 #contact .social {
 	margin-top: 40px;
 }
-#contact .social ul li {
-	display: inline-block;
-	margin-right: 20px;
+ li {
+	 font-size: 17px;
+    color: rgb(200, 200, 200);
+	margin-left: 30px;
 }
 #contact .social i.fa {
 	font-size: 26px;
@@ -338,8 +334,7 @@ color: #777;
 	color: #999;
 }
 /* Footer Section*/
-#footer {
-	background: #0e0e0e;
+footer {
 	padding: 50px 0 20px 0;
 }
 #footer p {
@@ -448,6 +443,16 @@ color: #777;
 
 .timeline .job-desc {
     color: rgb(170, 170, 170)
+}
+
+.location{
+    color: rgb(170, 170, 170);
+	font-size:17px;
+}
+.intro-text .fa{
+    color: rgb(170, 170, 170);
+	margin-right:7px; 
+	font-size:20px;
 }
 
 @media (max-width: 767px) {
