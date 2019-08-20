@@ -357,7 +357,7 @@ footer {
 
 .timeline .item {
     position: relative;
-    margin-bottom: 45px
+    margin-bottom: 25px
 }
 
 .timeline .item:last-child {
@@ -371,7 +371,7 @@ footer {
     top: 0;
     display: inline-block;
     width: 22px;
-    height: 22px;
+	height: 22px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
