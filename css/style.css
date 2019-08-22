@@ -11,7 +11,7 @@ body, html {
 	background-color: #0e0e0e;
 }
 h1 {
-	color: rgb(200, 200, 200);
+	color: rgb(255, 255, 255);
 	font-size: 64px;
 	font-weight: 400;
 	margin-top: 0;
@@ -425,7 +425,7 @@ footer {
 .timeline .place {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300
 }
 
@@ -437,7 +437,8 @@ footer {
 }
 
 .timeline .job-meta .title {
-    font-size: 18px;
+	font-size: 18px;
+	font-weight: 300;
     color: rgb(170, 170, 170);
     max-width: 220px
 }
