@@ -239,6 +239,9 @@ ol.type li a:hover {
 #contact h2 {
 	margin: 60px 0;
 }
+#aboutintro {
+	margin-bottom: 50px;
+}
 #aboutintro img {
 	width: 140px;
 	margin: 5px 30px 10px 0;
