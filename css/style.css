@@ -485,3 +485,13 @@ footer {
 		font-size: 50px;
 	}
 }
+
+@media (max-width: 1920px) {
+    body, html {
+		background-size: auto;
+	}
+
+	#contact {
+		background-size: auto;
+	}
+}
